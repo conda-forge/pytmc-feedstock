@@ -11,24 +11,22 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
   host:
     - python >=3.6
     - pip
-
   run:
     - python >=3.6
     - jinja2
     - lxml
-    - epics-pypdb
+    - epics-pypdb >=0.1.5
 
 test:
   imports:
     - pytmc
-
   requires:
     - pytest
     - pytest-qt
