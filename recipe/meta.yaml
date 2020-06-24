@@ -1,5 +1,5 @@
 {% set name = "pytmc" %}
-{% set version = "2.6.5" %}
+{% set version = "2.6.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://github.com/slaclab/pytmc/archive/v{{ version }}.tar.gz
-  sha256: 5796ba6834830d5023cef90e3f36e6c0c0755da921ef7d3bb83186dd395d7b44
+  sha256: fab425fc072b10a9ff141b1a1fd54abdccc0d7af2f4ca63e63a05a2228da9fff
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
   entry_points:
     - pytmc = pytmc.bin.pytmc:main
 
@@ -41,11 +41,11 @@ about:
   license: SLAC Open
   license_family: Other
   license_file: LICENSE
-  summary: 'Generate EPICS IOCs and records from Beckhoff TwinCAT projects'
+  summary: Generate EPICS IOCs and records from Beckhoff TwinCAT projects
 
 extra:
   recipe-maintainers:
     - klauer
-    - hhslepicka 
+    - hhslepicka
     - zllentz
     - n-wbrown
