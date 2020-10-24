@@ -1,5 +1,5 @@
 {% set name = "pytmc" %}
-{% set version = "2.7.5" %}
+{% set version = "2.7.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/slaclab/pytmc/archive/v{{ version }}.tar.gz
-  sha256: ea0e0c81e03318ddbff9f3ea741ac6515a2c49ea0ad12fd0371709e5758d0c4d
+  sha256: b6684427905e0f34b34aaafe3ccd81ff16cc3721a2f6552cf9ade3e83a99463f
 
 build:
   noarch: python
