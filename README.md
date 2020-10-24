@@ -5,11 +5,11 @@ Home: https://github.com/slaclab/pytmc
 
 Package license: SLAC Open
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytmc-feedstock/blob/master/LICENSE.txt)
 
 Summary: Generate EPICS IOCs and records from Beckhoff TwinCAT projects
 
-
+Documentation: https://slaclab.github.io/pytmc/
 
 Current build status
 ====================
