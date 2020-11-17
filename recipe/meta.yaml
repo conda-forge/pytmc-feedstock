@@ -38,8 +38,8 @@ test:
 about:
   home: https://github.com/slaclab/pytmc
   doc_url: https://slaclab.github.io/pytmc/
-  license: SLAC Open
-  license_family: Other
+  license: LicenseRef-BSD-3-Clause-SLAC
+  license_family: BSD
   license_file: LICENSE
   summary: Generate EPICS IOCs and records from Beckhoff TwinCAT projects
 
