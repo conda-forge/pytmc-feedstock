@@ -3,7 +3,7 @@ About pytmc
 
 Home: https://github.com/slaclab/pytmc
 
-Package license: SLAC Open
+Package license: LicenseRef-BSD-3-Clause-SLAC
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytmc-feedstock/blob/master/LICENSE.txt)
 
@@ -17,7 +17,7 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9278&branchName=master">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=master">
         <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pytmc-feedstock?branchName=master">
       </a>
     </td>
