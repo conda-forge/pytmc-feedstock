@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/pcdshub/pytmc/archive/v{{ version }}.tar.gz
-  sha256: e408cc34d5a56ce149cc98c1843da2f99a795586c48dc1ef7431171d5b2611fa
+  sha256: 9c1d9c26c62778211152245c347959812476f376fb75fb40f14f411ccf9c34d2
 
 build:
   noarch: python
