@@ -1,7 +1,7 @@
 About pytmc
 ===========
 
-Home: https://github.com/slaclab/pytmc
+Home: https://github.com/pcdshub/pytmc
 
 Package license: LicenseRef-BSD-3-Clause-SLAC
 
@@ -9,7 +9,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytmc-feedstock
 
 Summary: Generate EPICS IOCs and records from Beckhoff TwinCAT projects
 
-Documentation: https://slaclab.github.io/pytmc/
+Documentation: https://pcdshub.github.io/pytmc/
 
 Current build status
 ====================
@@ -17,7 +17,7 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=master">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9278&branchName=master">
         <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pytmc-feedstock?branchName=master">
       </a>
     </td>
