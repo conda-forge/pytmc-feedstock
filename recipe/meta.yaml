@@ -1,5 +1,5 @@
 {% set name = "pytmc" %}
-{% set version = "2.9.0" %}
+{% set version = "2.9.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://github.com/pcdshub/pytmc/archive/v{{ version }}.tar.gz
-  sha256: d308c0d745a269fcb47b23e8b56e8bd0eeca6d8994e193170c93d2323efdf43c
+  sha256: 4d2c5418b7d98c90cae6c01001e181c7e90938c174020853042c622cfec3daeb
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
   entry_points:
     - pytmc = pytmc.bin.pytmc:main
