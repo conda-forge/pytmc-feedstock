@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
   entry_points:
     - pytmc = pytmc.bin.pytmc:main
@@ -46,6 +46,6 @@ about:
 extra:
   recipe-maintainers:
     - klauer
-    - hhslepicka
     - zllentz
+    - zrylettc
     - n-wbrown
