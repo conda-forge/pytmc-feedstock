@@ -1,5 +1,5 @@
 {% set name = "pytmc" %}
-{% set version = "2.13.0" %}
+{% set version = "2.14.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/pcdshub/pytmc/archive/v{{ version }}.tar.gz
-  sha256: 0b7db574da7781c9777fc888a65ccf49a08405136f2f68377b015d6d3e265028
+  sha256: 51cb3df7795aeab57b370c2eedd6b01f5573e9e7a46e61494cfe615394606002
 
 build:
   noarch: python
