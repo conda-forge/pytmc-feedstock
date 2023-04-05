@@ -18,10 +18,10 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.9
     - pip
   run:
-    - python >=3.6
+    - python >=3.9
     - jinja2
     - lxml
     - epics-pypdb >=0.1.5
