@@ -1,11 +1,11 @@
-About pytmc
-===========
+About pytmc-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytmc-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/pcdshub/pytmc
 
 Package license: LicenseRef-BSD-3-Clause-SLAC
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytmc-feedstock/blob/main/LICENSE.txt)
 
 Summary: Generate EPICS IOCs and records from Beckhoff TwinCAT projects
 
@@ -145,8 +145,8 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@conda-forge/pcdsdevices](https://github.com/conda-forge/pcdsdevices/)
 * [@klauer](https://github.com/klauer/)
-* [@n-wbrown](https://github.com/n-wbrown/)
+* [@tangkong](https://github.com/tangkong/)
 * [@zllentz](https://github.com/zllentz/)
-* [@zrylettc](https://github.com/zrylettc/)
 
