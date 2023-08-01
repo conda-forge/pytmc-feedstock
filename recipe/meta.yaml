@@ -34,7 +34,7 @@ test:
     - pytest
     - pytest-qt
     - qtpy
-    - pyqt >=5
+    - pyqt =5
 
 about:
   home: https://github.com/pcdshub/pytmc
