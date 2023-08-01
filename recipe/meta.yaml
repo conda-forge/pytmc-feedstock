@@ -1,5 +1,5 @@
 {% set name = "pytmc" %}
-{% set version = "2.15.1" %}
+{% set version = "2.16.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/pcdshub/pytmc/archive/v{{ version }}.tar.gz
-  sha256: 56997414684e97699d057c723496ed7d154b1bb82da6bd133db2996173bbb0d8
+  sha256: 70796635be2d5d3bb54c666a09db53b06d8a2885f5c13369cb745c40aed0f848
 
 build:
   noarch: python
@@ -34,7 +34,7 @@ test:
     - pytest
     - pytest-qt
     - qtpy
-    - pyqt >=5
+    - pyqt =5
 
 about:
   home: https://github.com/pcdshub/pytmc
