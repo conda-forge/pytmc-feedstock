@@ -20,12 +20,15 @@ requirements:
   host:
     - python >=3.9
     - pip
+    - setuptools
     - setuptools_scm
   run:
     - python >=3.9
     - jinja2
     - lxml
     - epics-pypdb >=0.1.5
+  run_constrained:
+    - pyqt = 5
 
 test:
   imports:
@@ -47,6 +50,3 @@ about:
 extra:
   recipe-maintainers:
     - conda-forge/pcdsdevices
-    - klauer
-    - tangkong
-    - zllentz
