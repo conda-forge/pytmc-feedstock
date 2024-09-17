@@ -1,5 +1,5 @@
 {% set name = "pytmc" %}
-{% set version = "2.16.0" %}
+{% set version = "2.17.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/pcdshub/pytmc/archive/v{{ version }}.tar.gz
-  sha256: 70796635be2d5d3bb54c666a09db53b06d8a2885f5c13369cb745c40aed0f848
+  sha256: 7ca20267450f730dc9111bc1d4a8fe5c5570029700c460d50dd9151344ae4594
 
 build:
   noarch: python
@@ -20,12 +20,15 @@ requirements:
   host:
     - python >=3.9
     - pip
+    - setuptools
     - setuptools_scm
   run:
     - python >=3.9
     - jinja2
     - lxml
     - epics-pypdb >=0.1.5
+  run_constrained:
+    - pyqt =5
 
 test:
   imports:
@@ -47,6 +50,3 @@ about:
 extra:
   recipe-maintainers:
     - conda-forge/pcdsdevices
-    - klauer
-    - tangkong
-    - zllentz
