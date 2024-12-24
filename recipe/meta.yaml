@@ -11,19 +11,19 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
   entry_points:
     - pytmc = pytmc.bin.pytmc:main
 
 requirements:
   host:
-    - python >=3.9
+    - python {{ python_min }}
     - pip
     - setuptools
     - setuptools_scm
   run:
-    - python >=3.9
+    - python >={{ python_min }}
     - jinja2
     - lxml
     - epics-pypdb >=0.1.5
@@ -38,6 +38,7 @@ test:
     - pytest-qt
     - qtpy
     - pyqt =5
+    - python {{ python_min }}
 
 about:
   home: https://github.com/pcdshub/pytmc
