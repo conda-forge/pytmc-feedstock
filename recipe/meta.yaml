@@ -7,7 +7,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/p/pytmc/pytmc-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/p/pytmc/pytmc-{{ version }}.tar.gz
   sha256: e1a001cff2413e9dd930085db240178f7f698aa9c464d3394143ee938b224e10
 
 build:
