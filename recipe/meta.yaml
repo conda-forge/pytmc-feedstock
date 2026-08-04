@@ -1,5 +1,5 @@
 {% set name = "pytmc" %}
-{% set version = "2.21.1" %}
+{% set version = "2.22.1" %}
 {% set python_min = "3.9" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/pytmc/pytmc-{{ version }}.tar.gz
-  sha256: 0227d58befe1cdc129033b51df0eee67ef48e81ca41e069373d7b4d24a3810ea
+  sha256: 4974497f8133e045e228f870ef6636279811ce5747b40cf2375323324bfb0a98
 
 build:
   noarch: python
